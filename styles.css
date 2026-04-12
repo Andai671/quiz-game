@@ -82,6 +82,13 @@ body {
   cursor: pointer;
   text-align: left;
   transition: all 0.3s ease;
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
+}
+
+.answer-btn:active {
+  background-color: #e0d0b8;
+  transform: scale(0.98);
 }
 
 .answer-btn:hover {
